@@ -16,3 +16,5 @@ class Login:
         self.page.locator("#login").click()
         das = Dashboard(self.page)
         return das
+
+    # Adding this line to check git push and pull
